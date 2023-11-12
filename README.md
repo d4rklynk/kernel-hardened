@@ -7,7 +7,7 @@
 ## About
 This repository tracks the hardened Linux kernel from the Arch Linux repositories ([link](https://archlinux.org/packages/extra/x86_64/linux-hardened)). This is performed using GitHub's continuous integration, where the `ci-kernel-hardened.py` script is ran every 3 hours to check for new updates. If there are any, then the `kernel-hardened.spec` file is automatically updated, triggering the Hard Hat COPR repository ([link](https://copr.fedorainfracloud.org/coprs/samsepi0l/HardHatOS)) to automatically start the build process for the latest version of Fedora Linux.
 
-*N.B: This repo exists as the original maintainer doesn't want to continue the project. This COPR exists only in case someday his COPR fails to build a version. For now, please use his package, not mine.*
+*N.B: This repo exists as the original maintainer doesn't want to continue the project. This COPR exists because the original packages are outdated.*
 
 ## Instructions
 All commands will need to be entered with high privileges (`sudo -i`).
