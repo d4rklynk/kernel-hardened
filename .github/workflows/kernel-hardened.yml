@@ -31,8 +31,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: Update the .spec file to the latest linux-hardened kernel version
         env:
-          CI_COMMIT_AUTHOR: samsepi0l
-          CI_COMMIT_AUTHOR_EMAIL: contact@simpleprivacy.fr
+          CI_COMMIT_AUTHOR: d4rklynk
+          CI_COMMIT_AUTHOR_EMAIL: contact@samsepi0l.dev
         run: python3 ci-kernel-hardened.py kernel-hardened.spec
 
       # Runs a set of commands using the runners shell
