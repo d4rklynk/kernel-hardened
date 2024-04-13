@@ -1,4 +1,4 @@
-BuildArch: x86_64
+BuildArch: noarch
 BuildRequires: tar, zstd
 License: GPLv2 and Redistributable, no modification permitted
 Name: kernel-hardened
